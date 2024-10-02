@@ -1,0 +1,38 @@
+* {
+    font-family: garamond;
+    text-align: center;
+}
+header, footer {
+    background-color: #8C7b75;
+    color: white;
+    height: 70px;
+    font-size: 150%;
+}
+.lewo, .prawo {
+    background-color: #BCAAA4;
+    height: 400px;
+    width: 35%;
+    float: left;
+}
+footer {
+    clear: both;
+}
+.srodek {
+    background-color: #EFDCD5;
+    width: 30%;
+    float: left;
+    height: 400px;
+}
+ol {
+    list-style: lower-latin;
+}
+li {
+    text-align: left;
+}
+img {
+    border: 1px dashed #8C7b75 ;
+}
+.srodek > p {
+    margin-top: 100px;
+    border: 1px solid #8C7b75;
+}

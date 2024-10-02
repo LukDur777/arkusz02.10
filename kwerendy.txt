@@ -1,0 +1,5 @@
+SELECT * FROM `towary` WHERE `promocja` = 1;
+SELECT cena FROM `towary` WHERE `id` = 10;
+SELECT * FROM `towary` LEFT JOIN dostawcy ON towary.idDostawcy = dostawcy.id;
+ALTER TABLE `dostawcy` ADD `Informacje` INT NOT NULL AFTER `adres`;
+
